@@ -1,0 +1,101 @@
+JAVA
+
+36.fibonacci series
+
+public class FibonacciSeries {
+
+public static void main(String[] args) {
+
+int n1 = 0, n2 = 1, n3, i, count = 10; //Initializing variables n1=0, n2=1
+
+System.out.print(n1+" "+n2); //Printing initial values
+
+for(i=2;i<count;++i) //Loop to iterate through the series
+
+{
+
+n3=n1+n2; //Adding the previous two numbers
+
+System.out.print(" "+n3); //Printing the next number of the series
+
+n1=n2; //Swapping the numbers
+
+n2=n3;
+
+}
+
+}
+
+}
+
+
+SELENIUM
+
+1.Code for Handling Multiple Windows
+To get parent window -> getWindowHandle()
+To get all windows id -> getWindowsHandles()
+
+2. Alert
+postive scenario -> accept();
+negative scenario -> dismiss();
+
+8. Code for taking screenshot
+getScreenShotAs()
+
+6. Dropdown
+isMultiple() -> to verify whetherr dropdown is multiselected.
+
+15.To find more than one web element in the list
+driver.findelements
+
+
+MANUAL TESTING
+
+Test Case/No Test Scenario Description    Testcase priority  STEP NO   TEST STEP DESCRIPTION	                        EXPECTED RESULT                                           ACTUAL RESULTS      STATUS
+                                                             STEP 1    OPEN THE GC BROWSER	                        GC SHOULD BE OPENED                                       AS PER EXPECTED     PASS
+ TC_RB_001   To validate the payments in        High         STEP 2    ENTER THE SOURCE CITY AND DESTINATION CITY	SOURCE CITY AND DESTINATION CITY SHOULD BE DISPLAYED     AS PER EXPECTED      PASS
+              REDBUS.IN                                      STEP 3    SELECT THE TRAVELING DATE 	                TRAVELING DATE SHOULD BE DISPLAYED                        AS PER EXPECTED     PASS
+                                                                       ENTER THE SEARCH BUSUS	                        SEARCH BUSUS SHOULD BE DISPLAYED
+                                                             STEP 4    SELECT THE BUS 	                     SELECT THE BUS SHOULD BE DISPLAYED                           AS PER EXPECTED    PASS
+                                                             STEP 5    SELECT THE BUS SEATS	                     BUS SEATS SHOULD BE DISPLAYED                                AS PER EXPECTED    PASS
+                                                             STEP 6    SELECT THE BOARDING POINT AND DROPING POINT	BOARDIND POINT AND DROPING POINT SHOULD BE DISPLAYED      AS PER EXPECTED    PASS
+	                                                               CLICK THE PASSENGER DETAILS 	                PASSENGER DETAILS SHOULD BE DISPLAYED
+                                                             STEP 7    ENTER THE PASSENGER DETAILS 	               PASSENGER DETAILS SHOULD BE DISPLAYED                       AS PER EXPECTED   PASS
+	                                                               CLICK THE PROCEED BUTTON	               PROCEED BUTTON  SHOULD BE DISPLAYED
+                                                             STEP 8    SELECT THE PAYMENT OPTION 	              PAYMENT OPTION SHOULD BE DISPLAYED                          AS PER EXPECTED    PASS
+                                                             STEP 9    ENTER THE VALID CARD NUMBER,CVV,EXP DATE	CARD NUM,CVV,EXP SHOULD BE DISPLAYED
+	                                                                CLICK PROCEED BUTTON	                         PROCEED BUTTON  SHOULD BE DISPLAYED                       AS PER EXPECTED   PASS
+                                                             STEP 10	BOOKING CONFIRMED MESSAGE SHOWS 	        CONFIRMED MESSAGE SHOULD BE DISPLAYED                     AS PER EXPECTED    PASS
+
+
+
+Negative testcases
+
+Waterbottle
+Test step description      Expected result
+
+1.To chech or measure the     failed
+volume of water that can 
+be stored in a bottle
+
+2.Lid should not be broken    failed
+
+3.To verify the lid of the    failed
+bottle i perfectly
+tightened
+
+4.Bottles temperature        failed
+shold be constant
+
+
+
+
+
+
+
+
+
+
+
+
+
